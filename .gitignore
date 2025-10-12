@@ -3,6 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Virtual environments
+linear_algebra_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Linear Algebra Project specific
+*.ipynb_checkpoints/
+.DS_Store
+*.log
+
 # C extensions
 *.so
 
@@ -205,3 +218,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+linear_algebra_env
